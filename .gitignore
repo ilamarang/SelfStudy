@@ -1,0 +1,23 @@
+# Keep annoying Mac OSX files out
+.DS_Store
+
+#
+# Custom Added by @netpoetica
+# Ensure these files aren't copied from lesson plans,
+#  this way none of the students are confused. :-)
+#
+02-Lessons/*-Week/README.md
+02-Lessons/*-Week/*-Day/*-Lessonplan.md
+02-Lessons/*-Week/*-Day/*-TimeTracker.md
+02-Lessons/*-Week/*-Day/*-TimeTracker.xlsx
+02-Lessons/*-Week/*-Day/*-timesheet.md
+02-Lessons/*-Week/*-Day/*-timesheet.xlsx
+
+# Make sure only the final power point is uploaded, in case you have it open when copying
+# this strange file is created by power point when you have a presentation open
+~*.pptx 
+
+# Ignore files where instructor adds some local notes to the bootcamp repo
+instructor-notes.md
+
+node_modules/
